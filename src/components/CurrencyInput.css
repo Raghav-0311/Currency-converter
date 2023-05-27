@@ -1,0 +1,38 @@
+.wrapper {
+    /* background: white; */
+    display: grid;
+    grid-template-columns: 250px 90px;
+    border-radius: 14px;
+    width: 100%;
+    margin: 21px 0;
+}
+
+input, select {
+    color: gainsboro;
+    /* width: 90px; */
+    margin: 1px;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.wrapper input[type= number] {
+    padding: 5px;
+    width: 250px;
+}
+
+
+select {
+    padding: 15px;
+    width: 90px;
+    margin-left: 20px;
+}
+
+.inputItem {
+    background: gray;
+}
+/* select-selected {
+    color: yellow;
+} */
+
